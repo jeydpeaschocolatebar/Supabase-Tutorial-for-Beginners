@@ -21,7 +21,6 @@ const Home = () => {
       if (data) {
         setSmoothies(data);
         setFetchError(null);
-        console.log(data);
       }
     };
 
